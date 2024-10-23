@@ -1,0 +1,50 @@
+@relation books
+@attribute Genre {Fiction, NonFiction, Mystery, Romance, Fantasy, ScienceFiction}
+@attribute Author {Rowling, King, Brown, Collins, Martin, Atwood}
+@attribute Language {English, Spanish, French, German}
+@attribute Bestseller {Yes, No}
+@data
+Fiction Rowling English Yes
+Fantasy Martin English Yes
+Romance Collins French No
+ScienceFiction Atwood German Yes
+NonFiction Brown English No
+Mystery King Spanish Yes
+Fiction Collins German No
+Fantasy Rowling English Yes
+Mystery Brown French Yes
+NonFiction Atwood Spanish No
+ScienceFiction Martin English Yes
+Fiction Collins English No
+Romance Rowling French Yes
+Mystery King German Yes
+ScienceFiction Atwood English Yes
+NonFiction Brown French No
+Fantasy Collins English No
+Mystery Martin Spanish Yes
+Fiction Rowling German Yes
+NonFiction Brown English No
+Romance Atwood German No
+ScienceFiction King Spanish Yes
+Mystery Collins English Yes
+Fantasy Martin English No
+Fiction Rowling French Yes
+Romance King German No
+NonFiction Atwood English Yes
+Fiction Collins Spanish No
+ScienceFiction Martin French Yes
+Mystery Rowling English No
+NonFiction Brown French No
+Romance King English Yes
+Fantasy Atwood English No
+Fiction Rowling Spanish Yes
+ScienceFiction King French No
+Mystery Brown English Yes
+Romance Collins German No
+Fiction Atwood English Yes
+Fantasy Martin French No
+ScienceFiction Rowling English Yes
+Mystery Brown German No
+NonFiction King English No
+Fiction Rowling French Yes
+Romance Collins Spanish Yes
