@@ -1,0 +1,21 @@
+@relation AgeGroups
+@attribute AgeGroup {Children, Young, Mature, SeniorCitizen}
+@attribute Age numeric
+@data
+Children,1
+Children,4
+Children,3
+Children,9
+Children,10
+Young,11
+Young,12
+Young,14
+Young,19
+Young,20
+Mature,21
+Mature,22
+Mature,23
+Mature,30
+SeniorCitizen,32
+SeniorCitizen,31
+SeniorCitizen,78
